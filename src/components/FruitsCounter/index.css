@@ -1,0 +1,91 @@
+.bg-container {
+  background-color: #ffd569;
+  padding: 60px;
+  min-height: 100vh;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  padding-bottom: 50px;
+  font-size: 40px;
+  color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 25px;
+    padding: 10px;
+    color: #000000;
+  }
+}
+
+.count {
+  color: #ffd569;
+}
+
+@media screen and (max-width: 576px) {
+  .count {
+    color: #ffd569;
+  }
+}
+
+.fruits-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .fruits-container {
+    flex-direction: column;
+  }
+}
+
+.small-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  height: 40vh;
+  width: 20vw;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    height: 25vh;
+    width: 40vw;
+  }
+}
+
+.btn {
+  margin: 20px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  width: 8vw;
+  height: 5vh;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    height: 6vh;
+    width: 25vw;
+  }
+}
